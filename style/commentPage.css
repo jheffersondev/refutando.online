@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-wrapper{
+    padding: 0px 100px;
+    padding-top: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(105, 105, 105);
+    padding: 30px;
+}
+
+.container-right{
+    flex-grow: 3;
+    margin-right: 40px;
+    /* background-color: red; */
+}
+
+.container-left{
+    flex-grow: 1;
+    /* background-color: blue; */
+}
+.my-card-container{
+    margin-bottom: 20px;
+}
+
+.my-card{
+    border: 1px solid rgb(105, 105, 105);
+    min-width: 750px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.my-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.my-card-header-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.my-card-button-like{
+    display: flex;
+    flex-direction: row;
+}
+
+.my-card-button-like i{
+    margin-right: 15px;
+}
+
+.my-card-title-wrapper{
+    margin-left: 15px;
+}
+
+.my-card-title-wrapper h2{
+    font-size: 1.6rem;
+}
+
+.my-card-info{
+    font-size: small;
+    color: rgb(105, 105, 105);
+}
+
+.avatar-wrapper{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.avatar-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.my-card-body p{
+    font-size: medium;
+    color: rgb(105, 105, 105);
+}
+
+button{
+    border: none;
+    background-color: #0d6efd;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: bold;
+}
