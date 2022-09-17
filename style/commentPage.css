@@ -24,18 +24,36 @@
 }
 
 .my-card-button-like{
+    width: 50px;
+    color: blue;
+    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: small;
+    background-color: #f7f7f7;
+    border-radius: 20px;
 }
 
-.my-card-button-like i{
+.my-card-button-dislike{
+    width: 50px;
+    color: red !important;
+    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right: 15px;
+    align-items: center;
+    font-size: small;
+    background: #f7f7f7;
+    border-radius: 20px;
+}
+
+.my-card-button-like i, .my-card-button-dislike i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 8px;
 }
 
 .my-card-title-wrapper{
@@ -142,6 +160,10 @@ button{
     font-size: small;
     color: rgb(105, 105, 105);
 } 
+
+.comment-footer {
+    display: flex;
+}
 
 .container-left .card{
     margin-bottom: 30px;
