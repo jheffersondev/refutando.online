@@ -19,6 +19,7 @@
 }
 
 .my-card-header-right{
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
 }
