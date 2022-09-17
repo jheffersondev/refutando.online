@@ -148,6 +148,16 @@ button{
     padding: 20px 20px 20px 10px;
 }
 
+.comment-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.comment-date {
+    font-size: 14px;
+}
+
 .comment-header, .comment-body{
     padding-bottom: 5px;
 }
