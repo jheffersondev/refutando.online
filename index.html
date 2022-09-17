@@ -8,23 +8,20 @@
     <title>Refutando.online</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./style/basicStructure.css">
+    <link rel="stylesheet" href="./style/formPost.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./style/cardStyle.css">
 </head>
 
 <body>
-
-    <script src="./bootstrap/js/bootstrap.js"></script>
-
-    <script src="./scripts/script.js"></script>
-
+    
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Refutando</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,7 +31,7 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-primary" href="./formPost.html" role="button">Make a post</a>
+                            <a  id="get-form-post" class="btn btn-primary" href="./formPost.html" role="button">Make a post</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -45,16 +42,16 @@
             </div>
         </nav>
     </header>
-
+    
     <div class="container-wrapper">
         <div class="container">
-            <div class="container-right">
+            <div id="container-right" class="container-right">
                 <!--Card-->
                 <div class="my-card">
                     <div class="my-card-header">
                         <div class="my-card-header-right">
                             <div class="avatar-wrapper">
-                                <img src="./imagens/general-avatar.png" alt="General avatar">
+                                <img src="./imgs/general-avatar.png" alt="General avatar">
                             </div>
                             <div class="my-card-title-wrapper">
                                 <h2>Which filmes does GDPR designate for companies</h2>
@@ -95,7 +92,7 @@
                     <div class="my-card-header">
                         <div class="my-card-header-right">
                             <div class="avatar-wrapper">
-                                <img src="./imagens/general-avatar.png" alt="General avatar">
+                                <img src="./imgs/general-avatar.png" alt="General avatar">
                             </div>
                             <div class="my-card-title-wrapper">
                                 <h2>Which filmes does GDPR designate for companies</h2>
@@ -136,7 +133,7 @@
                     <div class="my-card-header">
                         <div class="my-card-header-right">
                             <div class="avatar-wrapper">
-                                <img src="./imagens/general-avatar.png" alt="General avatar">
+                                <img src="./imgs/general-avatar.png" alt="General avatar">
                             </div>
                             <div class="my-card-title-wrapper">
                                 <h2>Which filmes does GDPR designate for companies</h2>
@@ -177,7 +174,7 @@
                     <div class="my-card-header">
                         <div class="my-card-header-right">
                             <div class="avatar-wrapper">
-                                <img src="./imagens/general-avatar.png" alt="General avatar">
+                                <img src="./imgs/general-avatar.png" alt="General avatar">
                             </div>
                             <div class="my-card-title-wrapper">
                                 <h2>Which filmes does GDPR designate for companies</h2>
@@ -214,7 +211,7 @@
                 </div>
                 <!--Final do Card-->
             </div>
-            <div class="container-left">
+            <div id="container-left" class="container-left">
                 <div class="card">
                     <div class="card-header bg-primary text-white">
                         About Refutando
@@ -227,6 +224,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./scripts/script.js"></script>
 
 </body>
 

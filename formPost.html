@@ -1,78 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <script src="./bootstrap/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="./style/basicStructure.css">
-    <link rel="stylesheet" href="/style/formPost.css">
-</head>
-
-<body>
-
-    <header class="vh-30">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Refutando</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="./formPost.html" role="button">Make a post</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container-wrapper">
-        <div class="container">
-            <div class="container-right">
-                <div class="form-content border bg-white">
-                    <form>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
-                            <div id="emailHelp" class="form-text">Choose a simple and descriptive title</div>
-                        </div>
-                        <div class="mb-3">
-                            <label class="text-secondary" for="exampleFormControlTextarea1">Content</label>
-                            <textarea class="form-control mt-3" style="max-height: 250px;" id="exampleFormControlTextarea1"
-                                rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-post">Post</button>
-                    </form>
-                </div>
-            </div>
-            <div class="container-left">
-                <div class="card">
-                    <div class="card-header bg-primary text-white">
-                        tip
-                    </div>
-                    <div class="card-body">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ratione sint dolore
-                        architecto nam porro, ex odit vitae.
-                    </div>
-                </div>
-            </div>
+<div class="form-content border bg-white">
+    <form>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Title">
+            <div id="emailHelp" class="form-text">Choose a simple and descriptive title</div>
         </div>
-    </div>
-
-</body>
-
-</html>
+        <div class="mb-3">
+            <label class="text-secondary" for="exampleFormControlTextarea1">Content</label>
+            <textarea class="form-control mt-3" style="max-height: 250px;" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-post">Post</button>
+    </form>
+</div>
