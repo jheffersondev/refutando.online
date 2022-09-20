@@ -1,3 +1,9 @@
+:root {
+    --font-primary: 'Courier New';
+    --font-secundary: 'Garamond';
+    --font-action: 'Goudy Old Style';
+}
+
 .my-card-container{
     margin-bottom: 20px;
 }
@@ -9,6 +15,7 @@
     background-color: #fff;
     padding: 30px;
     margin-bottom: 30px;
+    font-family: var(--font-action);
 }
 
 .my-card-header{
@@ -16,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 10px;
+    font-family: var(--font-primary);
 }
 
 .my-card-header-right{

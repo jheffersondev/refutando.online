@@ -1,11 +1,22 @@
-
-.link-name {
-    text-decoration: none;
-    color: #000
+:root {
+    --font-primary: 'lato';
+    --font-secundary: 'Amiko' ;
+    --font-action: 'Karla';
 }
 
 .name {
     color: rgb(0, 0, 0);
+    font-family: var(--font-primary);
+}
+
+.link-name {
+    text-decoration: none;
+    font-family: var(--font-secundary);
+    color: rgb(0, 0, 0)
+}
+
+.text-edit {
+    font-family: var(--font-action);
 }
 
 .container {
@@ -15,7 +26,6 @@
     border: 1px solid rgb(218, 218, 218);
 }
 
-
 .img-wrapper {
     border-radius: 100%;
     -o-border-radius: 100%;
@@ -23,4 +33,5 @@
     -moz-border-radius: 100%;
     max-width: 150px;
     max-height: 150px;
+    border: 1px solid rgb(7, 7, 242);
 }

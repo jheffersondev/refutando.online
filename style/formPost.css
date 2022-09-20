@@ -1,4 +1,11 @@
+:root {
+    --font-primary: 'lato';
+    --font-secundary: 'Amiko' ;
+    --font-action: 'Karla';
+}
+
 .form-content{
+    font-family: var(--font-action);
     padding: 50px;
     border-radius: 5px;
     transition: all 0.3s;
