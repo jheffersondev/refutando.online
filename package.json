@@ -1,0 +1,24 @@
+{
+  "name": "refutando.online",
+  "version": "1.0.0",
+  "description": "- João Pedro Juvino dos Santos\r - Jhefferson William\r - Ismael Mello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jheffersondev/refutando.online.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jheffersondev/refutando.online/issues"
+  },
+  "homepage": "https://github.com/jheffersondev/refutando.online#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.6.5"
+  }
+}
