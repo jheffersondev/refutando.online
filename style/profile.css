@@ -4,26 +4,36 @@
     --font-action: 'Karla';
 }
 
-.name {
-    color: rgb(0, 0, 0);
+body {
+    height: 150vh;
+    background: no-repeat linear-gradient(#666666, #333333);
+}
+
+nav {
+    background: #666666;
+}
+
+.names-h {
+    color: #ffffff;
     font-family: var(--font-primary);
 }
 
 .link-name {
     text-decoration: none;
     font-family: var(--font-secundary);
-    color: rgb(0, 0, 0)
+    color: #ffffff;
 }
 
 .text-edit {
     font-family: var(--font-action);
+    color: #ffffff;
 }
 
 .container {
     width: auto;
     height: auto;
     margin-top: 50px;
-    border: 1px solid rgb(218, 218, 218);
+    border: 1px solid #CCCCCC;
 }
 
 .img-wrapper {
@@ -33,5 +43,37 @@
     -moz-border-radius: 100%;
     max-width: 150px;
     max-height: 150px;
-    border: 1px solid rgb(7, 7, 242);
+    border: 2px solid #CCCCCC;
+}
+
+.the-end {
+    width: auto;
+    height: auto;
+    text-align: center; 
+    margin-top: 130px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.complement {
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-left: 350px;
+}
+
+.devs {
+    margin: 30px;
+}
+
+.social-midia-links {
+    display: flex; 
+    margin-left: 600px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.img-links {
+    width: 30px;
+    padding-top: 85px;
+    margin: 25px;
 }

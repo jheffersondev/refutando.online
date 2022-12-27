@@ -5,6 +5,7 @@
 }
 
 .container-wrapper{
+    background: no-repeat linear-gradient(#666666, #333333);
     padding: 0px 100px;
     padding-top: 50px;
 }
@@ -13,7 +14,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(218, 218, 218);
+    border: 1px solid #CCCCCC;
     padding: 30px;
 }
 
@@ -27,5 +28,6 @@
 }
 
 .container-left .card{
+    background-color: #999999;
     margin-bottom: 20px;
 }
